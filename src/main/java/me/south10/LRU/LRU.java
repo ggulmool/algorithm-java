@@ -4,7 +4,7 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 
 /**
- * Created by iamssin on 2016-03-08.
+ * Created by south10 on 2016-03-08.
  */
 public class LRU<K,V> extends LinkedHashMap<K,V> {
     private int maxSize;

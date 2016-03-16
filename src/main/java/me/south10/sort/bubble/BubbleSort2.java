@@ -3,7 +3,7 @@ package me.south10.sort.bubble;
 import java.util.Arrays;
 
 /**
- * Created by iamssin on 2016-03-16.
+ * Created by south10 on 2016-03-16.
  */
 public class BubbleSort2 {
     public static void main(String[] args) {

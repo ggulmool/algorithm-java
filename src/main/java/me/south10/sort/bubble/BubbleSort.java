@@ -1,7 +1,7 @@
 package me.south10.sort.bubble;
 
 /**
- * Created by iamssin on 2016-03-16.
+ * Created by south10 on 2016-03-16.
  */
 public class BubbleSort {
     public static void main(String[] args) {

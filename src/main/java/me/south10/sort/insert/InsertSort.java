@@ -7,17 +7,22 @@ import java.util.Arrays;
  */
 public class InsertSort {
     public static void main(String[] args) {
-        int[] data = {5, 4, 2, 1, 3};
+        int[] data = {1, 4, 2, 5, 3};
 
         for(int i=1; i<data.length; i++){
             int key = data[i];
-            int j = 0;
+            /*int j = 0;
             for(j=i-1; j>=0; j--){
                 if(data[j]>key){
                     data[j+1] = data[j];
                 }else{
                     break;
                 }
+            }*/
+            int j = i-1;
+            while(j>=0 && data[j]>key){
+                data[j+1] = data[j];
+                j--;
             }
             data[j+1] = key;
             System.out.println(Arrays.toString(data));

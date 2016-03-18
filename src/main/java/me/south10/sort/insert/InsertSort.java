@@ -20,7 +20,9 @@ public class InsertSort {
                 }
             }
             data[j+1] = key;
+            System.out.println(Arrays.toString(data));
         }
+        System.out.println("삽입정렬 결과");
         System.out.println(Arrays.toString(data));
     }
 }

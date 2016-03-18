@@ -21,15 +21,10 @@ public class SelectionSort {
 					data[j] = temp;
 				}
 			}
-
-			showData(data);
+			System.out.println(Arrays.toString(data));
 		}
 
-		System.out.println("정렬 결과");
-		showData(data);
-	}
-
-	private static void showData(int[] data) {
+		System.out.println("선택정렬 결과");
 		System.out.println(Arrays.toString(data));
 	}
 }

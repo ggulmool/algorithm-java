@@ -1,9 +1,9 @@
-package me.south10.solve.algorithm.chap0;
+package me.south10.solve.algorithm.chap00;
 
 import java.util.Arrays;
 
 /**
- * Created by spring on 2016-03-21.
+ * Created by south10 on 2016-03-21.
  */
 public class ArrayRotation {
     public static void main(String[] args) {

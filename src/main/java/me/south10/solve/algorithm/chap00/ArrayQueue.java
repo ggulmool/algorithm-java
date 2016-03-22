@@ -3,7 +3,7 @@ package me.south10.solve.algorithm.chap00;
 import java.util.Scanner;
 
 /**
- * Created by spring on 2016-03-22.
+ * Created by south10 on 2016-03-22.
  */
 public class ArrayQueue {
     static final int QUEUE_CAPACITY = 8;

@@ -5,9 +5,7 @@ import java.util.Scanner;
 /**
  * Created by south10 on 2016-03-28.
  * input number of bills:3
- * input bills: 5
- * 2
- * 1
+ * input bills: 5 2 1
  * input money: 5
  * result : 4
  */

@@ -30,7 +30,7 @@ public class GotoWork {
         }
 
         // 방법1
-        showArr(map, 5, 5);
+        //showArr(map, 5, 5);
         //System.out.printf("%d\n", num_path(M-1, N-1));
 
         // 방법2

@@ -20,7 +20,7 @@ public class LRU<K,V> extends LinkedHashMap<K,V> {
         return size() > maxSize;
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) { 
         LRU<String, Integer> lru = new LRU<String, Integer>(2);
         lru.put("A",1);
         System.out.println("A1");

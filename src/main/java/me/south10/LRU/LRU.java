@@ -22,7 +22,7 @@ public class LRU<K,V> extends LinkedHashMap<K,V> {
 
     public static void main(String[] args) {
         LRU<String, Integer> lru = new LRU<String, Integer>(2);
-        lru.put("A",1);
+        lru.put("A",1); 
         System.out.println("A1");
         lru.put("B",2);
         System.out.println("B2");

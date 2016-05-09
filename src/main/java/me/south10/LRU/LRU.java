@@ -33,7 +33,7 @@ public class LRU<K,V> extends LinkedHashMap<K,V> {
         if(lru.containsKey("A"))
             System.out.println("LRU is failed");
         else
-            System.out.println("Yes " + lru.size());
+            System.out.println("Yes 사이즈 " + lru.size());
 
     }
 }

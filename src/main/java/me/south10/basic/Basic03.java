@@ -10,7 +10,7 @@ public class Basic03 {
         int target = 25;
         int near = 0;
         int min = Integer.MAX_VALUE;
-
+        System.out.println(min);
         for(int i=0; i<data.length; i++){
             int a = Math.abs(data[i]-target);
             if(min > a){

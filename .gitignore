@@ -8,5 +8,3 @@ target
 .settings
 .iml
 .idea
-src/main/resources/
-src/test/
